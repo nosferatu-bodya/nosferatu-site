@@ -1,0 +1,232 @@
+
+body {
+    text-align: center;
+}
+
+
+/* Title Section  */
+
+#title {
+    background: url(../images/title-bg.png);
+}
+
+.navbar {
+    padding: 1% 20%;
+    background-color: rgb(49, 52, 78);
+}
+
+.navbar-brand {
+    color: white;
+    font-family: 'Secular One', sans-serif;
+    font-size: 1.5rem;
+    padding-bottom: 0;
+}
+
+.navbar-brand-name {
+    font-weight: bold;
+    color: rgb(245, 248, 66);
+}
+
+.nav-item {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.nav-link {
+    color: rgb(193, 196, 233);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: rgb(211, 210, 137);
+}
+
+.profile {
+    padding: 7% 40%;
+}
+
+.profile-img {
+    width: 70%;
+    border-radius: 100%;
+    margin-bottom: 30px;
+}
+
+.name {
+    color: white;
+    font-family: 'Secular One', sans-serif;
+    margin-bottom: 15px;
+}
+
+.about-me {
+    color: rgb(175, 180, 207);
+    font-size: 1.2rem;
+}
+
+/* Skills Section */
+
+#skills {
+    padding: 5% 15%;
+}
+
+.skills-title {
+    font-weight: bold;
+    font-family: 'Secular One', sans-serif;
+}
+
+.skill {
+    padding: 5% 7%;
+}
+
+.skill-icon {
+    font-size: 5rem;
+    margin-bottom: 30px;
+    color: rgb(48, 63, 109);
+}
+
+.skill:hover > .skill-icon {
+    color: rgb(105, 124, 179);
+    /* font-size: 5.5rem; */
+}
+
+.skill-title {
+    font-weight: bold;
+}
+
+.skill-about {
+    color: rgb(98, 98, 129);
+}
+
+/* Work Section  */
+
+#works {
+    padding: 0;
+    padding-right: 12px;
+}
+
+.work {
+    height: 500px;
+    padding:0;
+}
+
+.work-overlay-blue {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(54, 55, 117, 0.671);
+    opacity: 0;
+    /* padding-top: 60%; */
+    padding: 50% 15% 0;
+}
+.work-overlay-yellow {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(155, 158, 58, 0.671);
+    opacity: 0;
+    /* padding-top: 60%; */
+    padding: 50% 15% 0;
+}
+.work-overlay-yellow:hover {
+    opacity: 100%;
+}
+
+.work-overlay-blue:hover {
+    opacity: 100%;
+}
+
+.work-title {
+    line-height: 1.5;
+    color: white;
+    text-transform: uppercase;
+}
+
+.work-1 {
+    background: url(../images/work-1.png);
+}
+
+.work-2 {
+    background: url(../images/work-2.jpg);
+    background-size: 100%;
+}
+
+.work-3 {
+    background: url(../images/work-3.png);
+    background-size: 100%;
+}
+.work-4 {
+    background: url(../images/work-4.jpg);
+    background-size: 100%;
+}
+
+/* Github Section  */
+
+#github {
+    padding: 7% 25%;
+}
+
+.github-link {
+    text-decoration: none;
+}
+
+.github-icon {
+    color: rgb(21, 28, 51);
+    font-size: 15rem;
+    text-decoration: none;
+}
+
+.github-link:hover .github-icon {
+    color: rgb(84, 110, 160);
+}
+
+.github-text {
+    text-align: left;
+    padding-top: 40px;
+}
+
+.github-title {
+    color: black;
+    font-weight: bold;
+    font-family: 'Secular One', sans-serif;
+    margin-bottom: 20px;
+}
+
+.github-about {
+    font-size: 1.1rem;
+    color: rgb(71, 71, 102);
+}
+
+/* Contact Section  */
+
+#contact {
+    background-color: rgb(49, 56, 92);
+    padding: 7% 20%;
+}
+
+.contact-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.contact-icon {
+    margin: 0 20px;
+    color: rgb(247, 247, 83);
+    text-decoration: none;
+    font-size: 8rem;
+}
+
+.contact-icon:hover {
+    color: rgb(67, 67, 201);
+}
+
+/* Footer Section  */
+
+#footer {
+    background-color: rgb(36, 41, 63);
+    padding: 2% 15%;
+}
+
+.copyright {
+    color: rgb(136, 140, 175);
+    font-size: 1rem;
+}
