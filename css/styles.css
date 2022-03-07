@@ -141,6 +141,7 @@ body {
 
 .work-1 {
     background: url(../images/work-1.png);
+    background-size: 100%;
 }
 
 .work-2 {
@@ -229,4 +230,13 @@ body {
 .copyright {
     color: rgb(136, 140, 175);
     font-size: 1rem;
+}
+
+@media (max-width: 960px) {
+    .work {
+        /* height: 1000px; */
+    }
+    .github-text {
+        text-align: center;
+    }
 }
